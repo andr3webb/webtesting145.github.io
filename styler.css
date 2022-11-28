@@ -33,13 +33,13 @@ nav {
     margin: auto;
     display: flex;
     border-radius: 7px;
-    line-height: 90px;
+    line-height: 70px;
     position: sticky;
     position: -webkit-sticky; 
-    top: 0;
-    background: #404258;
+    top: 0px;
+    background: #dedede;
     z-index: 1;
-    border-bottom:3px solid #6D9886;
+    border-bottom:4px solid #364f6b;
 }
 
 nav ul {
@@ -54,10 +54,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: black;
+    color: #364f6b;
     font-weight: bold;
     text-align: center;
-    padding: 0px 16px 0px 16px;
+    padding: 0px 20px 0px 20px;
     text-decoration: none;
 }
 
@@ -68,12 +68,12 @@ nav ul li a:hover {
 section {
     margin: auto;
     display: flex;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .kolom {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .kolom .deskripsi {
@@ -140,24 +140,17 @@ p {
     flex-wrap: wrap;
 }
 
-
-
-.kartu-tutor img {
-    width: 80%;
-    border-radius: 50%;
-}
-
 .kartu-tutor p {
     font-family: 'comic sans ms';
     font-weight: 800;
     font-size: 25px;
-    text-align: center;
+    text-align: right;
     color: #364f6b;
 }
 
 #contact {
     background: #dedede;
-    padding:50px 0px 50px 0px;
+    padding:35px 0px 35px 0px;
 }
 
 .footer {
@@ -186,13 +179,13 @@ h3 {
 #copyright {
     text-align: center;
     width: 100%;
-    padding: 50px 0px 50px 0px;
-    margin-top: 25px;
+    padding: 40px 0px 40px 0px;
+    margin-top: 17px;
 }
 
 @media screen and (max-width: 991.98px) {
     .wrapper {
-        width: 90%;
+        width: 91%;
     }
 
     .logo a {
